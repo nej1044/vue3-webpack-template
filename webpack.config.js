@@ -56,6 +56,7 @@ module.exports = {
         new VueLoaderPlugin()
     ],
     devServer: {
-        host: 'localhost'
+        host: 'localhost',
+        port: 3000
     }
 }
